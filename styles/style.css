@@ -39,7 +39,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 150px;
+  margin: 0 425px;
+  margin-bottom: 100px;
 }
 
 .nav-bar h1 {
@@ -55,4 +56,29 @@ header {
 .banner-section h1 {
   font-family: Raleway;
   font-size: 65px;
+}
+
+/* Action Section styles */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 110px auto;
+}
+
+.action-text h2 {
+  font-size: 42px;
+  font-family: Raleway;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.action-text p {
+  font-size: 24px;
+  font-family: Raleway;
+}
+.action-image img {
+  border-radius: 15%;
 }
