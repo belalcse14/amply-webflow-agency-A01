@@ -48,8 +48,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 425px;
-  margin-bottom: 100px;
+  margin: 0 130px;
+  padding-top: 50px;
+  margin-bottom: 150px;
 }
 
 .nav-bar h1 {
@@ -65,6 +66,7 @@ header {
 .banner-section h1 {
   font-family: Raleway;
   font-size: 65px;
+  padding-bottom: 35px;
 }
 
 /* Action Section styles */
@@ -122,4 +124,61 @@ header {
   font-size: 20px;
   font-family: Inter;
   text-align: center;
+}
+
+/* Users Review Section Styles */
+.users-review-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.users-review-section h2 {
+  text-align: center;
+  font-size: 42px;
+  font-family: Raleway;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.review-cards-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.review-cards {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.review-cards img {
+  padding-bottom: 20px;
+}
+.review-cards h4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Inter;
+}
+.review-cards p {
+  font-size: 16px;
+  font-family: Inter;
+}
+.reviewer-info {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.reviewer-name-date h5 {
+  font-size: 16px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.reviewer-name-date p {
+  font-size: 14px;
+  line-height: 0%;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.reviewer-info img {
+  border-radius: 50%;
 }
