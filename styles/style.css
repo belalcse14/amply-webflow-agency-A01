@@ -49,7 +49,7 @@ body {
 }
 /* Header styles */
 header {
-  background-image: url("../Assets/hero-bg.png");
+  /* background-image: url("../Assets/hero-bg.png"); */
   height: 700px;
   background-size: cover;
   background-position: center;
