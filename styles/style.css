@@ -41,7 +41,7 @@ h6 {
 header {
   background-image: url(../Assets/hero-bg.png);
   height: 700px;
-  width: 100%;
+  margin: 0 auto;
 }
 /* Body Styles */
 body {
@@ -269,4 +269,36 @@ textarea {
   padding-top: 15px;
 }
 .get-in-touch-form button {
+}
+
+/* Footer section styles */
+footer {
+  margin: 0 auto;
+  background-color: white;
+}
+.footer-container {
+  text-align: center;
+  padding: 50px;
+}
+.footer-container h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: Inter;
+}
+.footer-container p {
+  font-size: 16px;
+  font-family: Raleway;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+.footer-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-family: Raleway;
+}
+.footer-container ul a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
 }
