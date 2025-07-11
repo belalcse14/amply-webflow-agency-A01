@@ -41,8 +41,12 @@ h6 {
 header {
   background-image: url(../Assets/hero-bg.png);
   height: 700px;
+  width: 100%;
 }
-
+/* Body Styles */
+body {
+  background-color: #f5f8ff;
+}
 /* Nav Bar Styles */
 .nav-bar {
   display: flex;
@@ -211,4 +215,58 @@ header {
 .focus-container img {
   border-radius: 30px;
   margin-top: 20px;
+}
+
+/* Get in touch Section Styles */
+.get-in-touch-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+.get-in-touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.get-in-touch-text h1 {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+.get-in-touch-form {
+  width: 50%;
+}
+.get-in-touch-text {
+  width: 50%;
+}
+
+.get-in-touch-form input[type="text"],
+input[type="email"],
+textarea {
+  height: 50px;
+  display: block;
+  width: 100%;
+  background-color: white;
+  box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-family: Inter;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+.get-in-touch-form label {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.get-in-touch-form textarea {
+  padding-top: 15px;
+}
+.get-in-touch-form button {
 }
