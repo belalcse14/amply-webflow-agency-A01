@@ -41,6 +41,8 @@ h6 {
 }
 .btn-primary:hover {
   background-color: #2e27ee;
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 /* Body Styles */
@@ -49,7 +51,7 @@ body {
 }
 /* Header styles */
 header {
-  /* background-image: url("../Assets/hero-bg.png"); */
+  background-image: url("../Assets/hero-bg.png");
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -324,4 +326,8 @@ footer {
 .footer-container ul a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-container ul a:hover {
+  text-decoration: underline;
 }
