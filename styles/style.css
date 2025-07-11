@@ -119,11 +119,13 @@ header {
   font-size: 80px;
   font-weight: bold;
   font-family: Inter;
+  line-height: 1em;
 }
 .user-info p {
   font-size: 20px;
   font-family: Inter;
   text-align: center;
+  line-height: 0%;
 }
 
 /* Users Review Section Styles */
@@ -181,4 +183,32 @@ header {
 
 .reviewer-info img {
   border-radius: 50%;
+}
+
+/* Focus Better Section Styles */
+.focus-better {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 110px;
+  background-color: white;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.focus-container {
+  padding: 30px;
+}
+
+.focus-container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Raleway;
+}
+.focus-container p {
+  font-size: 16px;
+  font-family: Inter;
+}
+.focus-container img {
+  border-radius: 30px;
+  margin-top: 20px;
 }
