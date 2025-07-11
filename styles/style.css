@@ -42,6 +42,7 @@ header {
   background-image: url(../Assets/hero-bg.png);
   height: 700px;
   margin: 0 auto;
+  background-size: cover;
 }
 /* Body Styles */
 body {
@@ -238,6 +239,7 @@ body {
 
 .get-in-touch-form {
   width: 50%;
+  margin-right: 25px;
 }
 .get-in-touch-text {
   width: 50%;
