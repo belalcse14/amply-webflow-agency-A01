@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Shared Styles */
 .primary-color {
   color: #4e47ff;
@@ -39,7 +45,7 @@ h6 {
 
 /* Header styles */
 header {
-  background-image: url(../Assets/hero-bg.png);
+  background-image: url("../Assets/hero-bg.png");
   height: 700px;
   margin: 0 auto;
   background-size: cover;
@@ -212,6 +218,8 @@ body {
 .focus-container p {
   font-size: 16px;
   font-family: Inter;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .focus-container img {
   border-radius: 30px;
@@ -226,20 +234,20 @@ body {
 }
 
 .get-in-touch-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
 }
 .get-in-touch-text h1 {
-  font-size: 90px;
+  font-size: 80px;
   font-weight: bold;
   font-family: Raleway;
 }
 
 .get-in-touch-form {
   width: 50%;
-  margin-right: 25px;
 }
 .get-in-touch-text {
   width: 50%;
@@ -259,7 +267,8 @@ textarea {
   margin-top: 5px;
   font-family: Inter;
   font-size: 14px;
-  padding-left: 25px;
+  resize: vertical;
+  padding-left: 15px;
 }
 
 .get-in-touch-form label {
@@ -269,8 +278,12 @@ textarea {
 
 .get-in-touch-form textarea {
   padding-top: 15px;
+  height: 100px;
+  font-family: Inter;
+  font-size: 14px;
 }
-.get-in-touch-form button {
+.get-in-touch-form input[type="button"] {
+  width: 100%;
 }
 
 /* Footer section styles */
